@@ -1,2 +1,2 @@
 # Integradora-
-Proyecto
+Gerardo Zepeda Martínez
