@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>www.Tornus.com</title>
+		<link rel="stylesheet" href="estilos/estilos-cuenta.css">
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<div class="menu-otros">
+			<div class="contenedor-otros">
+				<img src="img/tornus.png" width="200px" />
+				<nav>
+					<ul>
+						<li><a href="Index.html">Inicio</a> </li>
+						<li><a href="promociones.php">Promociones</a> </li>
+						<li class="actual"><a href="Cuenta.html">Cuenta</a> </li>
+						<li><a href="Hoteles.html">Hoteles y Ruta</a> </li>
+						<li><a href="Registrar.html">Registrar</a> </li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<form method="POST" action="tarjeta.php">
+			<h1>Registrar Targeta</h1>
+			<p>
+				<label for="saldo">Saldo</label><br />
+				<input type="number" id="saldo" name="saldo" maxlength="6" placeholder="Introduce tu saldo" value="" />
+			</p>
+			<p>
+				<label for="pago">Tipo de Pago</label>
+				<input type="text" placeholder="Introduzca el tipo de pago" name="pago" id="pago" value="" />
+			</p>
+			<p>
+				<label for="estatus">Estatus</label>
+				<input type="bit" placeholder="Introduzca el estatus de la targeta" name="estatus" id="estatus" value="" />
+			</p>
+			<p>
+				<label for="targeta">Tipo de Targeta</label>
+				<input type="text" placeholder="Introduzca el tipo de targeta" name="targeta" id="targeta" value="" />
+			</p>
+			<p>
+				<label for="num">N&uacute;mero de Targeta</label>
+				<input type="password" placeholder="Introduzca el N&uacute;mero de su Targeta" name="num" id="num" value="" />
+			</p>
+			<p>
+				<label for="anio">A&ntilde;o Vencimiento</label>
+				<input type="date" id="anio" placeholder="Introduzca el A&ntilde;o de Vencimiento" name="anio" />
+			</p>
+			<p>
+				<label for="mes">Mes Vencimiento</label>
+				<input type="date" id="mes" placeholder="Introduzca el Mes de Vencimiento" name="mes" />
+			</p>
+			<p>
+				<button>Registrar</button>
+			</p>
+		</form>
+		<footer>
+			<p>TORNUS &copy; 2019</p>
+		</footer>
+	</body>
+</html>

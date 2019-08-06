@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<link rel="stylesheet" href="estilos/estilos.css">
+		<meta charset="utf-8">
+		<title>www.Tornus.com</title>
+		<link rel="stylesheet" href="owl/owl.carousel.min.css">
+		<link rel="stylesheet" href="owl/owl.theme.default.min.css">
+	</head>
+	<body>
+		<header>
+			<div class="menu">
+			<link href="https://www.google.com.mx/maps/place/Calvillo,+Ags./@21.8494494,-102.
+			7322151,14z/data=!3m1!4b1!4m5!3m4!1s0x8429cc1aa651f151:
+			0x6ef110b7a1b1637f!8m2!3d21.8468359!4d-102.7186435" rel="stylesheet">
+				<div class="contenedor">
+					<p class="logo">TORNUS</p>
+					<nav>
+						<ul>
+							<li class="actual"><a href="index.html">Inicio</a> </li>
+							<li><a href="error.php">Promociones</a> </li>
+							<li><a href="Cuenta.html">Cuenta</a> </li>
+							<li><a href="Hoteles.html">Hoteles y Ruta</a> </li>
+							<li><a href="Registrar.html">Registrar</a> </li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="contenedor" id="contenedor-titulo-flex">
+				<div class="contenedor-titulo">
+					<h1>TORNUS</h1>
+					<h2>El unico y verdadero viaje es en ti</h2>
+					<p class="logo"><img src="img/tornus.png" width=200px/></p>
+				</div>
+			</div>
+		</header>
+		<section id="iniciar">
+			<div id="contenedor-sesion">
+				<form method="POST" action="inicio.php">
+					<input type="text" placeholder="Introduzca el nombre de usuario" name="username" id="username" value="" />
+					<input type="password" placeholder="Introduzca la Contrase&ntilde;a" name="pass" id="pass" value="" />
+					<button type="submit" class="boton1">Iniciar Sesi&oacute;n</button>
+				</form>
+			</div>
+		</section>
+		<main>
+			<section id="servicios">
+				<div class="contenedor">
+					<h3>Rutas</h3>
+					<div class="contenedor-rutas">
+						<div class="chicas">
+							<img  src="img/calvillo2.jpg">
+						</div>
+						<div class="texto">
+							<h3 id="ser">Calvillo</h3>
+							<p>Ofrecemos una de las mejores experiencias entorno a guias turisticas.</p>
+							<p>Precio: $2000 - $3500</p>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d29626.626939066755!2d-102.7371507!3d21.8448663!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2smx!4v1564516017629!5m2!1ses!2smx" width="600" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="mis-trabajos">
+				<div class="contenedor">
+					<h3>Rutas</h3>
+					<div class="owl-carousel owl-theme">
+						<div class="item" id="imagen"><img src="img/2.jpg" width=250 height=250 /></div>
+						<div class="item" id="imagen"><img src="img/3.jpg" width=250 height=250 /></div>
+						<div class="item" id="imagen"><img src="img/6.jpg" width=250 height=250 /></div>
+						<div class="item" id="imagen"><img src="img/8.jpg" width=250 height=250 /></div>
+						<div class="item" id="imagen"><img src="img/15.jpg" width=250 height=250 /></div>
+						<div class="item" id="imagen"><img src="img/16.jpg" width=250 height=250 /></div>
+						<div class="item" id="imagen"><img src="img/17.jpg" width=250 height=250 /></div>
+						<div class="item" id="imagen"><img src="img/12.png" width=250 height=250 /></div>
+						<div class="item" id="imagen"><img src="img/15.jpg" width=250 height=250 /></div>
+					</div>
+				</div>
+			</section>
+			<section id="servicios">
+				<div class="contenedor">
+					<h3>Servicios</h3>
+					<div class="contenedor-servicios">
+						<div class="servicio violeta">
+							<h4>Rutas</h4>
+							<p>Ofrecemos una de las mejores experiencias entorno a guias turisticas.<br/>
+							Precio: $2000 - $3500</p>
+							<img class="icono" id="rutasimg" src="img/rutas.png"/>
+							<img class="ondas" src="img/waves.png"/>
+						</div>
+						<div class="servicio celeste">
+							<h4>Hospedaje</h4>
+							<p>Tenemos uno de los mejores hoteles 5 estrellas donde pasaras las mejores noches.<br/>
+							Precio desde $1000 la noche.</p>
+							<img class="icono" id="rutasimg" src="img/hoteles.png"/>
+							<img class="ondas" src="img/waves.png"/>
+						</div>
+						<div class="servicio violeta">
+							<h4>Paquetes</h4>
+							<p>Ofrecemos una gran cantidad de paquetes con diferentes rutas y las mejores ofertas.<br/>
+							Precio desde $3000.</p>
+							<img class="icono" id="rutasimg" src="img/paquetes.png"/>
+							<img class="ondas" src="img/waves.png"/>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+		crossorigin="anonymous"></script>
+		<script src="owl/owl.carousel.min.js"></script>
+		<script>
+			$('.owl-carousel').owlCarousel({
+				loop:true,
+				margin:10,
+				nav:true,
+				dots:false,
+				responsive:{
+					0:{
+						items:1
+					},
+					600:{
+						items:3
+					},
+					1000:{
+					items:4
+					}
+				}
+			})
+		</script>
+		<footer>
+			<p>TORNUS &copy; 2019</p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>www.Tornus.com</title>
+		<link rel="stylesheet" href="estilos/estilos-cuenta.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-sacle=1.0">
+	</head>
+	<body>
+		<div class="responsabilidad">
+			<div>
+				<div class="contenedor-otros">
+					<img src="img/tornus.png" id="tornus" />
+					<nav>
+						<ul>
+							<li><a href="Index.html">Inicio</a> </li>
+							<li><a href="Cuenta.html">Registrar</a> </li>
+							<li><a href="Hoteles.html">Hoteles y Ruta</a> </li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<form method="POST" action="RegistrarGloria.php">
+				<h1>Reservar</h1>
+				<p>
+					<label>Hotel La Gloria</label> 
+				</p>
+				<p>
+					<label for="ruta">Ruta</label><br />
+					<select id="ruta" name="ruta">
+						<option value="" selected>Calvillo</option>
+					</select>
+				</p>
+				<p>
+					<label for="fecha">Fecha</label>
+					<input type="date" name="fecha" id="fecha" />
+				</p>
+				<p>
+					<label>Costo $2000</label> 
+				</p>
+				<p>
+					<label for="pago">Pago</label>
+					<input type="double" placeholder="Introduzca el pago a realizar" name="pago" id="pago" value="" />
+				</p>
+				<p>
+					<button>Reservar</button>
+				</p>
+			</form>
+			<footer>
+				<img class="redes" src="img/instagram.png"/>
+				<img class="redes" src="img/whats.png"/>
+				<img class="redes" src="img/facebook.png"/>
+				<p>TORNUS &copy; 2019</p>
+			</footer>
+		</div>
+	</body>
+</html>

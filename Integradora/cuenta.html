@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>www.Tornus.com</title>
+		<link rel="stylesheet" href="estilos/estilos-cuenta.css">
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<div class="menu-otros">
+			<div class="contenedor-otros">
+				<img src="img/tornus.png" width="200px" />
+				<nav>
+					<ul>
+						<li><a href="Index.html">Inicio</a> </li>
+						<li><a href="error.php">Promociones</a> </li>
+						<li class="actual"><a href="Cuenta.html">Cuenta</a> </li>
+						<li><a href="Hoteles.html">Hoteles y Ruta</a> </li>
+						<li><a href="Registrar.html">Registrar</a> </li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<form method="POST" action="cuenta.php">
+			<h1>Registrar</h1>
+			<p>
+				<label for="username">Nombre de usuario</label>
+				<input type="text" placeholder="Introduzca el nombre de usuario" name="username" id="username" value="" />
+			</p>
+			<p>
+				<label for="pass">Contrase&ntilde;a</label>
+				<input type="password" placeholder="Introduzca la Contrase&ntilde;a" name="pass" id="pass" value="" />
+			</p>
+			<p>
+				<label for="nombre">Nombre</label>
+				<input type="text" placeholder="Introduzca el nombre" name="nombre" id="nombre" value="" />
+			</p>
+			<p>
+				<label for="appaterno">Apellido Paterno</label>
+				<input type="text" placeholder="Introduzca su apellido paterno" name="appaterno" id="appaterno" value="" />
+			</p>
+			<p>
+				<label for="apmaterno">Apellido Materno</label>
+				<input type="text" placeholder="Introduzca su apellido materno" name="apmaterno" id="apmaterno" value="" />
+			</p>
+			<p>
+				<label for="correo">Correo</label>
+				<input type="email" placeholder="Introduzca su correo" name="correo" />
+			</p>
+			<p>
+				<label for="tel">Tel&eacute;fono</label>
+				<input type="text" placeholder="Introduzca el Tel&eacute;fono" name="tel" id="tel" value="" />
+			</p>
+			<p>
+				<label for="direccion">Direcci&oacute;n</label>
+				<input type="text" placeholder="Introduzca la direcci&oacute;n" name="direccion" id="direccion" value="" />
+			</p>
+			<p>
+				<label for="curp">CURP</label>
+				<input type="text" placeholder="Introduzca la CURP" name="curp" id="curp" value="" />
+			</p>
+			<p>
+				<label for="rfc">RFC</label>
+				<input type="text" placeholder="Introduzca el RFC" name="rfc" id="rfc" value="" />
+			</p>
+			<p>
+				<label for="estatus">Estatus</label>
+				<input type="bit" placeholder="Introduzca su estatus" name="estatus" id="estatus" value="" />
+			</p>
+			<p>
+				<button>Registrar</button><button><a href="tarjeta.html">Registrar Targeta</a></button>
+			</p>
+		</form>
+		<footer>
+			<p>TORNUS &copy; 2019</p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>www.Tornus.com</title>
+		<link rel="stylesheet" href="estilos/estilos-cuenta.css">
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<div class="menu-otros">
+			<div class="contenedor-otros">
+				<img src="img/tornus.png" width="200px" />
+				<nav>
+					<ul>
+						<li><a href="Index.html">Inicio</a> </li>
+						<li><a href="error.php">Promociones</a> </li>
+						<li><a href="Cuenta.html">Cuenta</a> </li>
+						<li><a href="Hoteles.html">Hoteles y Ruta</a> </li>
+						<li class="actual"><a href="Registrar.html">Registrar</a> </li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<form method="POST" action="cuenta.php">
+			<h1>Registrar</h1>
+			<p>
+				<label for="username">N&uacute;mero de Ruta</label>
+				<input type="text" placeholder="Introduzca el nombre de usuario" name="username" id="username" value="" />
+			</p>
+			<p>
+				<label for="pass">Fecha</label>
+				<input type="Date" placeholder="Introduzca la Fecha " name="pass" id="pass" value="" />
+			</p>
+			<p>
+				<label for="nombre">Costo</label>
+				<input type="Numero" placeholder="Costo" name="nombre" id="nombre" value="" />
+			</p>
+			<p>
+				<label for="appaterno">Pago</label>
+				<input type="Numero" placeholder="Introduzca pago" name="appaterno" id="appaterno" value="" />
+			</p>
+			<p>
+				<button>Registrar</button><button><a href="tarjeta.html">Registrar Targeta</a></button>
+			</p>
+		</form>
+		<footer>
+			<p>TORNUS &copy; 2019</p>
+		</footer>
+	</body>
+</html>
